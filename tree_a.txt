@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="TRUNC_LOAN <= 19550.0\nsamples = 941\nvalue = 13506.879", fillcolor="#f7d9c3"] ;
+1 [label="TRUNC_LOAN <= 12450.0\nsamples = 648\nvalue = 8755.542", fillcolor="#fbece1"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="TRUNC_LOAN <= 7950.0\nsamples = 383\nvalue = 5926.619", fillcolor="#fdf7f3"] ;
+1 -> 2 ;
+3 [label="samples = 188\nvalue = 3927.34", fillcolor="#ffffff"] ;
+2 -> 3 ;
+4 [label="samples = 195\nvalue = 7854.128", fillcolor="#fcefe7"] ;
+2 -> 4 ;
+5 [label="TRUNC_IMP_CLNO <= 14.5\nsamples = 265\nvalue = 12844.136", fillcolor="#f8dcc8"] ;
+1 -> 5 ;
+6 [label="samples = 62\nvalue = 9007.032", fillcolor="#fbebdf"] ;
+5 -> 6 ;
+7 [label="samples = 203\nvalue = 14016.059", fillcolor="#f7d7c0"] ;
+5 -> 7 ;
+8 [label="TRUNC_LOAN <= 31350.0\nsamples = 293\nvalue = 24014.956", fillcolor="#efaf82"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="TRUNC_IMP_DEBTINC <= 34.723\nsamples = 207\nvalue = 19958.213", fillcolor="#f2c09b"] ;
+8 -> 9 ;
+10 [label="samples = 26\nvalue = 11532.538", fillcolor="#f9e1d0"] ;
+9 -> 10 ;
+11 [label="samples = 181\nvalue = 21168.53", fillcolor="#f1bb94"] ;
+9 -> 11 ;
+12 [label="TRUNC_IMP_DEBTINC <= 34.249\nsamples = 86\nvalue = 33779.442", fillcolor="#e78945"] ;
+8 -> 12 ;
+13 [label="samples = 7\nvalue = 11461.571", fillcolor="#f9e1d0"] ;
+12 -> 13 ;
+14 [label="samples = 79\nvalue = 35756.975", fillcolor="#e58139"] ;
+12 -> 14 ;
+}
